@@ -5,12 +5,13 @@
   },
   "plugins": [
     {
-      "name": "audit-dashboard",
-      "description": "Audit log dashboard generation and platform activity visualization",
+      "name": "tdx-skills",
+      "description": "tdx CLI skills for Treasure Data — audit log dashboard generation, pipeline monitoring, and platform activity visualization",
       "source": "./",
       "strict": false,
       "skills": [
-        "./tdx-skills/audit-dashboard"
+        "./tdx-skills/audit-dashboard",
+        "./tdx-skills/pipeline-dashboard"
       ]
     }
   ]
