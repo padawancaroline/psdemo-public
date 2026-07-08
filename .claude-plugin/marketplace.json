@@ -5,12 +5,20 @@
   },
   "plugins": [
     {
-      "name": "tdx-skills",
-      "description": "tdx CLI skills for Treasure Data — audit log dashboard generation, pipeline monitoring, and platform activity visualization",
+      "name": "audit-dashboard",
+      "description": "Generates a rich, interactive HTML dashboard from Treasure Data audit log data — event volumes, top users, event types, denied access, IP addresses, resource types, and hourly patterns.",
       "source": "./",
       "strict": false,
       "skills": [
-        "./tdx-skills/audit-dashboard",
+        "./tdx-skills/audit-dashboard"
+      ]
+    },
+    {
+      "name": "pipeline-dashboard",
+      "description": "Generates an interactive HTML monitoring dashboard for data pipelines — workflow status, job logs, audit trail, KPI cards, trend charts, live log viewer, and event timeline.",
+      "source": "./",
+      "strict": false,
+      "skills": [
         "./tdx-skills/pipeline-dashboard"
       ]
     }
