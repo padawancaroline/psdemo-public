@@ -1,0 +1,12 @@
+{
+  "name": "psdemo-public",
+  "owner": {
+    "name": "padawancaroline"
+  },
+  "plugins": [
+    {
+      "name": "test",
+      "source": "./path/to/plugin"
+    }
+  ]
+}
