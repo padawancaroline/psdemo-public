@@ -3,5 +3,15 @@
   "owner": {
     "name": "padawancaroline"
   },
-  "plugins": []
+  "plugins": [
+    {
+      "name": "tdx-skills",
+      "description": "tdx CLI skills for Treasure Data — audit log dashboard generation and platform activity visualization",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./tdx-skills/audit-dashboard"
+      ]
+    }
+  ]
 }
